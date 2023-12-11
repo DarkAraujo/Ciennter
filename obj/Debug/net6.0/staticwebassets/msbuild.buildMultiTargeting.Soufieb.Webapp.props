@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Soufieb.Webapp.props" />
-</Project>
