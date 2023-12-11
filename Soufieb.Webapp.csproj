@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="**\*.xml" Exclude="bin\**\*;obj\**\*"
+    CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\NewFolder\**" />
     <Compile Remove="Views\main\**" />
     <EmbeddedResource Remove="Controllers\NewFolder\**" />
